@@ -1,0 +1,9 @@
+
+Nous avons choisi d'implémenter certaines règles différemment 
+de ce que l'énoncé demandait.
+- La vitesse et la direction des balles ne dépend pas de celle du vaisseau. 
+  En effet, Le vaisseau n'a pas de vitesse relativement à la fenêtre 
+  si on ne touche pas aux commandes (pas d'inertie).
+- Les balles ne sont pas dangereuses pour le vaisseau.
+- Les collisions sont gérées en uitlisant des cercles centrés sur les 
+  objets plutôt que des carrés.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" type="text/css" href="lost_in_space.css">
+
+   <link rel="icon" type="image/png" href="images/alien22.png" />
+   <link rel="shortcut icon" type="image/x-icon" href="images/Lost_In_Space.ico" />
+
+   <script src="lost_in_space.js" type="text/javascript"></script>
+
+   <title>Lost In Space</title>
+   
+ </head>
+ <body id="window" onload = "onload()">
+  <h1 id="title">Lost in space</h1>
+  <div id="canvas">
+
+    <canvas id="game_area"
+          width="600"
+          height="600">
+    </canvas>
+
+    <div class="row">
+        <button class="menu_button small_button" id="help">?</button>
+        <button class="menu_button" id="play">PLAY</button>
+        <button class="menu_button" id="set">SETTINGS</button>
+        <button class="menu_button" id="quit">QUIT</button>
+        <button class="menu_button small_button" id="pause">II</button>
+    </div>
+
+  </div>
+
+    <audio id="music_1" autoplay=true loop>  
+          Si ce message s'affiche, ton navigateur ne supporte pas l'élément audio :,( 
+          <source src="audio/Star Wars (Main Theme) [8bit].mp3" type="audio/mp3" />
+    </audio>
+    <audio id="music_2" loop src="audio/Dream Land Theme Song.mp3" type="audio/mp3">  </audio>
+    <audio id="sound_1" src="audio/sf_laser_13.mp3" type="audio/mp3">  </audio>
+    <audio id="sound_2" src="audio/sf_laser_13.mp3" type="audio/mp3">  </audio>
+    <audio id="sound_3" src="audio/rafale.mp3" type="audio/mp3">  </audio>
+
+ </body>
+
+</html>
